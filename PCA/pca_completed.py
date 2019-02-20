@@ -13,31 +13,33 @@ X_std = StandardScaler().fit_transform(X)
 
 
 
-pca = PCA(n_components=2)
+pca = PCA(n_components=4)
 X_transform = pca.fit_transform(X_std)
 
-# explained_var = pca.explained_variance_ratio_
-# for var in explained_var:
-# 	print var
-# 	plt.bar([1,2,3,4],explained_var,label=var)
-# 	plt.legend()
-# plt.show()
+explained_var = pca.explained_variance_ratio_
+for var in explained_var:
+	print var
+	plt.bar([1,2,3,4],explained_var,label=var)
+	plt.xlabel("Component #")
+	plt.ylabel("% Variance Contribution")
+	plt.legend()
+plt.show()
 
-pca1 = zip(*X_transform)[0]
-pca2 = zip(*X_transform)[1]
+# pca1 = zip(*X_transform)[0]
+# pca2 = zip(*X_transform)[1]
 
-color_dict = {}
+# color_dict = {}
 
-color_dict["Iris-setosa"] = "green"
-color_dict["Iris-versicolor"]='red'
-color_dict["Iris-virginica"] = 'blue'
+# color_dict["Iris-setosa"] = "green"
+# color_dict["Iris-versicolor"]='red'
+# color_dict["Iris-virginica"] = 'blue'
 
-i=0
-for label in labels.values:
+# i=0
+# for label in labels.values:
 
-	plt.scatter(pca1[i],pca2[i],color=color_dict[label])
-	i=i+1
+# 	plt.scatter(pca1[i],pca2[i],color=color_dict[label])
+# 	i=i+1
 
-plt.show()	
+# plt.show()	
 
 
