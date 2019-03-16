@@ -2,9 +2,6 @@
 
 > This repository contains material related to [Introduction to Machine Learning](http://codeheroku.com/course?course_id=1) Course by [Code Heroku](http://codeheroku.com).
 
-**Table of Contents**
-------------
-[TOC]
 
 ## Course Objectives
 
@@ -118,4 +115,6 @@ Visit our Facebook page: [Code Heroku - Facebook](https://www.facebook.com/codeh
 
 Visit our blog on Medium: [Code Heroku - Medium](https://medium.com/code-heroku "Code Heroku - Medium")
 <br>
-<center>[![](http://www.codeheroku.com/static/images/logo5.png)](http://www.codeheroku.com/)</center>
+<p align="center"><a href="http://www.codeheroku.com/">
+ <img src="http://www.codeheroku.com/static/images/logo5.png"></a>
+</p>
