@@ -1,4 +1,4 @@
-# Introduction to Reinforcement Learning
+# Introduction to Reinforcement Learning - Multi Arm Bandit
 
 <p align="center">
  <img src="http://www.codeheroku.com/static/images/mab_gi.png">
