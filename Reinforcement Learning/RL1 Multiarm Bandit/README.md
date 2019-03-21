@@ -1,7 +1,7 @@
 # Introduction to Reinforcement Learning
 
 <p align="center">
- <img src="http://www.codeheroku.com/static/blog/images/pid16_banner.png">
+ <img src="http://www.codeheroku.com/static/images/mab_gi.png">
 </p>
 
 ### Instructions
